@@ -63,7 +63,7 @@ export const projects = [
     id: 1,
     title: "A Health Care Platform",
     des: "A healthcare app for patients to register, book, and manage appointments with doctors, featuring admin tools for scheduling, confirmations, cancellations, and SMS notifications, built with Next.js",
-    img: "/p1.svg",
+    img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg"],
     link: "https://health-care-amber.vercel.app/",
   },
@@ -71,7 +71,7 @@ export const projects = [
     id: 2,
     title: "Admin Dashboard",
     des: "A modern React Admin Dashboard with Syncfusion components, Tailwind CSS, and React Context for state management. Features include dynamic theming, interactive charts, data tables, calendar, kanban boards, and a rich text editor",
-    img: "",
+    img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
     link: "https://admin-interface-plum.vercel.app/",
   },
@@ -79,9 +79,9 @@ export const projects = [
     id: 4,
     title: "A Audio streaming platform",
     des: "A cutting-edge AI SaaS platform that enables users to create, discover, and enjoy podcasts with advanced features like text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation and seamless playback",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "openai.svg"],
-    link: "/ui.apple.com",
+    img: "/p1.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/chandrashekar19/audio-streaming-platform",
   },
 ];
 
@@ -154,29 +154,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineer Intern",
+    desc: "Contributed to the development of responsive web applications using React . Actively participated in design implementation, and maintenance tasks under the guidance of senior engineers",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "UI Engineer",
+    desc: "Worked as a UI Engineer, specializing in developing an admin dashboard with React, Redux, and JavaScript. Focused on implementing robust CRUD functionality, ensuring efficient data management, and delivering a user-friendly interface for streamlined administrative operations.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Software Engineer",
+    desc: "Contributed to the InMöbius Club platform for Infinity Learn using React.js, react-query focusing on secure authentication, responsive UI, and seamless API integration to enhance the edtech user experience.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Software Engineer",
+    desc: "Contributed to a GIS-based land management system for clients in Benin and Togo using React, Tailwind CSS, Google Maps API, Material UI, and Zustand. Focused on building interactive map overlays and responsive, high-performance user interfaces.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -189,10 +189,6 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
   },
 ];
