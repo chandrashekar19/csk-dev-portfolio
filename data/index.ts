@@ -1,14 +1,13 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I specialize in building web applications with Next.js and React",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,21 +17,11 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm passionate about creating responsive  interfaces",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
     img: "",
     spareImg: "",
   },
@@ -46,11 +35,11 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title:
+      "Currently exploring new technologies and frameworks to enhance my skills",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +48,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "I'm always open to new opportunities and collaborations.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,34 +61,33 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "A Health Care Platform",
+    des: "A healthcare app for patients to register, book, and manage appointments with doctors, featuring admin tools for scheduling, confirmations, cancellations, and SMS notifications, built with Next.js",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg"],
+    link: "https://health-care-amber.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Admin Dashboard",
+    des: "A modern React Admin Dashboard with Syncfusion components, Tailwind CSS, and React Context for state management. Features include dynamic theming, interactive charts, data tables, calendar, kanban boards, and a rich text editor",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "",
+    des: "",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "A Audio streaming platform",
+    des: "A cutting-edge AI SaaS platform that enables users to create, discover, and enjoy podcasts with advanced features like text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation and seamless playback",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "openai.svg"],
     link: "/ui.apple.com",
   },
 ];
