@@ -71,16 +71,9 @@ export const projects = [
     id: 2,
     title: "Admin Dashboard",
     des: "A modern React Admin Dashboard with Syncfusion components, Tailwind CSS, and React Context for state management. Features include dynamic theming, interactive charts, data tables, calendar, kanban boards, and a rich text editor",
-    img: "/p2.svg",
+    img: "",
     iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "",
-    des: "",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://admin-interface-plum.vercel.app/",
   },
   {
     id: 4,
